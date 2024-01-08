@@ -151,23 +151,44 @@ body{
     bottom: 67px;
  }
  .menu{
-    background-color: darksalmon;
+    background-color: rgb(214, 179, 170);
     width: 1320px;
     height: 482px;
     flex-shrink: 0;
     margin: 0 120px 120px;
+    margin-top: 0;
+    text-align: center;
 
  }
 
- .place{
+ .place {
     color: #070211;
     font-family: Inter;
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
     line-height: 56px;
-    text-transform: capitalize;
+    text-transform: capitalize;  
+    margin-top: 100px;
+    margin-right: 386px;
+    margin-left: 385px;
+    margin-bottom: 214px;
+    text-align: center;    
     
  }
-
+ nav span{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px; 
+    text-transform: capitalize;  
+ }
+ 
+.Button{
+    border-radius: 8px;
+    background: #F00;
+}
  
