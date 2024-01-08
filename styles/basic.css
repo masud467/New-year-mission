@@ -150,45 +150,182 @@ body{
     right: 138px;
     bottom: 67px;
  }
- .menu{
+ /* nav section style */
+ nav{
     background-color: rgb(214, 179, 170);
     width: 1320px;
     height: 482px;
-    flex-shrink: 0;
-    margin: 0 120px 120px;
-    margin-top: 0;
-    text-align: center;
+    
+    margin: 100px 120px 120px;
+   
+    align-items: center;
+    
+
 
  }
 
- .place {
+ nav > div{
     color: #070211;
     font-family: Inter;
     font-size: 32px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 56px;
-    text-transform: capitalize;  
-    margin-top: 100px;
-    margin-right: 386px;
-    margin-left: 385px;
-    margin-bottom: 214px;
-    text-align: center;    
     
+    font-weight: 600;
+    
+    text-transform: capitalize;  
+    
+    padding-left: 385px;
+    padding-top: 100px;
+    padding-right: 386px;
+    padding-bottom: 386px;
+    align-items: center; 
+    margin-bottom: 0;   
+
  }
  nav span{
     color: #F00;
     text-align: center;
     font-family: Inter;
     font-size: 32px;
-    font-style: normal;
+    
     font-weight: 600;
-    line-height: 56px; 
+    
     text-transform: capitalize;  
  }
  
 .Button{
     border-radius: 8px;
     background: #F00;
-}
+    
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+} 
+ nav div button span{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+ }
+ .offer{
+    display: flex;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 120px;
+    margin-top: 120px;
+    
+    
+ }
+ .offer-pic{
+    width: 364.844px;
+    height: 364.844px;
+    flex-shrink: 0;
+    order-radius: 364px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    margin-left: 70px;
+    
+ }
+ .offer-pic1{
+    width: 140px;
+    height: 140px;
+    flex-shrink: 0;
+ }
+ .gifts-greeting{
+    
+    margin-bottom: 16px;
+    margin-top: 120px;
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+ }
+ .gifts-title{
+    
+    margin-top: 0;
+    margin-bottom: 22px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+ }
+ .gifts-description{
+    /* margin-left: 140px;
+    margin-right: 564px; */
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+ }
+
+ .gifts{
+    margin-left: 140px; 
+    margin-right: 140px; 
+ }
+ .Email{
+    width: 648px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+ }
  
+ footer{
+    width: 1600px;
+    height: auto;
+    flex-shrink: 0;
+    background: #070211;
+    margin-bottom: 0; 
+ }
+ footer> p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+   
+ }
+ .footer-text{
+    padding-left: 140px;
+    padding-top: 120px;
+    padding-right: 1085px;
+ }
+ .footer-number{
+    padding-right: 291px;
+    padding-left: 1114px;
+    padding-top: 120px;
+  
+}
+.footer-website{
+    padding-bottom: 90px;
+    padding-right: 275px;
+    padding-left: 1114px;
+}
+.footer-pic{
+    padding-left: 50%;
+}
+.footer-parg{
+    padding-left: 140px;
+}
+.footer-sub{
+    padding-right: 140px;
+    padding-left: 1315px;
+    padding-bottom: 120px;
+    
+}
+.phone-icon{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
