@@ -1,0 +1,173 @@
+body{
+    /* background-color: #FFF; */
+}
+
+.banner{
+    position: relative;
+    text-align: center;
+    margin: 50px 140px 120px;
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    background: #070211;  
+}
+
+.banner-text{
+    font-family: 'Merriweather', serif;
+    position: absolute;
+    top: 177px;
+    right: 531px;
+    bottom: 383px;
+    left: 530px;
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;   
+}
+
+.banner-title{
+    font-family: 'Merriweather', serif;
+    position: absolute;
+    top: 233px;
+    left: 344px;
+    right: 344px;
+    bottom: 177px;
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    width: 632px;   
+}
+
+.percentage{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 48px;
+}
+
+.deals{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 0;
+}
+
+.title{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+.new-year-pic{
+    width: 802.9px;
+    height: 500px;
+    flex-shrink: 0;
+    margin-top: 48px;
+    margin-right: 398px;
+    margin-left: 399px;
+    margin-bottom: 120px;
+}
+.Welcome{
+    position: relative;
+    margin-top: 0;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 120px;
+}
+
+.party{
+    position: absolute;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px; 
+    letter-spacing: 7.04px;
+    top: 126px;
+    right: 95px;
+    left: 126px;
+    bottom: 24px; 
+}
+
+.description{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    top: 326px;
+    right: 39px;
+    bottom: 214px;
+    left: 126px;
+}
+
+.Join{
+    position: absolute;
+    top: 434px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    right: 601px;
+    left: 100px;
+    bottom: 142px;
+}
+ .img-2024{
+    position: absolute;
+    top: 68px;
+    display: flex;
+    width: 319.83px;
+    height: 464.662px;
+    padding: 0.008px 0px 0px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    left: 862px;
+    right: 138px;
+    bottom: 67px;
+ }
+ .menu{
+    background-color: darksalmon;
+    width: 1320px;
+    height: 482px;
+    flex-shrink: 0;
+    margin: 0 120px 120px;
+
+ }
+
+ .place{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    
+ }
+
+ 
