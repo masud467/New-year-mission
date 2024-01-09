@@ -419,21 +419,21 @@ body{
     padding-right: 212px;
     margin-top: 0;
  }
- .Email{
+  /* .Email{
     width: 648px;
     height: 72px;
     flex-shrink: 0;
     border-radius: 50px;
     background: #FFF;
     padding-bottom: 80px;
-    /* color: rgba(7, 2, 17, 0.30);
+     color: rgba(7, 2, 17, 0.30);
 text-align: center;
 font-family: Inter;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
-line-height: normal; */
- }
+line-height: normal; 
+ }  */
 .subscribe-email{
     display: flex;
     /* width: 648px;
@@ -441,6 +441,11 @@ line-height: normal; */
     /* position: absolute; */
     /* padding-right: 336px;
     margin: 0; */
+    padding-right: 336px;
+    padding-left: 336px;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+    padding-top: 48px;
 }
 
 #email{
@@ -449,21 +454,38 @@ flex-shrink: 0;
 /* padding-bottom: 80px; */
 border-radius: 50px;
 background: #FFF;
-/* width: 648px;
-height: 72px; */
+width: 648px; 
+height: 72px; 
 /* padding-left: 336px;
 padding-right: 336px; */
-
 }
+
+
 #sub-button{
     border-radius: 0px 50px 50px 0px;
     background: #F00;
-    /* width: 210px;
-    height: 72px; */
+    width: 210px;
+    height: 72px; 
     flex-shrink: 0;
-    /* padding-right: 336px; */
-    
-}
+    /* padding-right: 336px;  */
+    font-weight: 600;
+ }
+
+ div ::placeholder{
+    color: rgba(7, 2, 17, 0.30);
+    /* text-align: center; */
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 25px 477px 25px 30px; 
+
+ }
+ 
+
+ 
+
  /* .Button{
     width: 210px;
     height: 72px;
