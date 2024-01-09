@@ -28,7 +28,7 @@ body{
     font-weight: 400;   
  }
 
-.banner-title{
+ .banner-title{
     font-family: 'Merriweather', serif;
     position: absolute;
     top: 233px;
@@ -42,8 +42,10 @@ body{
     line-height: 95px;
     width: 632px;   
 }
-/* main section style */
-.percentage{
+
+ /* main section style */
+
+ .percentage{
     color: #F00;
     text-align: center;
     font-family: Inter;
@@ -53,9 +55,9 @@ body{
     line-height: normal;
     margin-top: 0;
     margin-bottom: 48px;
-}
+ }
 
-.deals{
+ .deals{
     color: #F00;
     text-align: center;
     font-family: Inter;
@@ -64,9 +66,9 @@ body{
     font-weight: 500;
     line-height: normal;
     margin-top: 0;
-}
+ }
 
-.title{
+ .title{
     color: #070211;
     text-align: center;
     font-family: Inter;
@@ -75,9 +77,9 @@ body{
     font-weight: 700;
     line-height: normal;
     margin-bottom: 0;
-}
+ }
 
-.new-year-pic{
+ .new-year-pic{
     width: 802.9px;
     height: 500px;
     flex-shrink: 0;
@@ -85,16 +87,16 @@ body{
     margin-right: 398px;
     margin-left: 399px;
     margin-bottom: 120px;
-}
-.Welcome{
+ }
+ .Welcome{
     position: relative;
     margin-top: 0;
     margin-left: 140px;
     margin-right: 140px;
     margin-bottom: 120px;
-}
+ }
 
-.party{
+ .party{
     position: absolute;
     color: #FFF;
     font-family: Merriweather;
@@ -107,9 +109,9 @@ body{
     right: 95px;
     left: 126px;
     bottom: 24px; 
-}
+ }
 
-.description{
+ .description{
     position: absolute;
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
@@ -121,9 +123,9 @@ body{
     right: 39px;
     bottom: 214px;
     left: 126px;
-}
+ }
 
-.Join{
+ .Join{
     position: absolute;
     top: 434px;
     color: #FFF;
@@ -137,7 +139,7 @@ body{
     right: 601px;
     left: 100px;
     bottom: 142px;
-}
+ }
  .img-2024{
     position: absolute;
     top: 68px;
@@ -153,7 +155,9 @@ body{
     right: 138px;
     bottom: 67px;
  }
+
  /* nav section style */
+
  nav{
     width: 1320px;
     height: 482px;
@@ -161,48 +165,38 @@ body{
     align-items: center;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
-    
-
-
  }
 
  nav > div{
     color: #070211;
     font-family: Inter;
     font-size: 32px;
-    
     font-weight: 600;
-    
     text-transform: capitalize;  
-    
     padding-left: 385px;
     padding-top: 100px;
     padding-right: 386px;
     padding-bottom: 386px;
     align-items: center; 
     margin-bottom: 0;   
-
  }
  nav span{
     color: #F00;
     text-align: center;
     font-family: Inter;
     font-size: 32px;
-    
     font-weight: 600;
-    
     text-transform: capitalize;  
  }
  
-.Button{
+ .Button{
     border-radius: 8px;
     background: #F00;
-    
     padding: 16px 32px;
     justify-content: center;
     align-items: center;
     gap: 10px;
-} 
+ } 
  nav div button span{
     color: #FFF;
     text-align: center;
@@ -264,22 +258,9 @@ body{
     margin-top: 0;
  }
  .offer-pic{
-    /* width: 364px; 
-    height: 364px;  */
-    /* flex-shrink: 0; */
-    /* order-radius: 100%; */
-    /* border-radius: 463px;  */
-    /* border-radius: 100%; */
     border: 15px solid #F00;
-    /* margin-left: 70px; */
-    /* margin-right: 534px;
-    margin-left: 603px; */ 
     border-radius: 364px;
     padding: 40px;  
-    /* width: 463px;
-    height: 463px; */
-    /* flex-shrink: 0; */
-    /* border-radius: auto;     */
  } 
 
  .offer-year{
@@ -339,8 +320,6 @@ body{
     text-transform: capitalize;
  }
  .gifts-description{
-    /* margin-left: 140px;
-    margin-right: 564px; */
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
@@ -352,7 +331,6 @@ body{
 
  .gifts{
     margin-left: 140px; 
-    /* margin-right: 140px;  */
  }
 
  .gifts-pic{
@@ -388,10 +366,7 @@ body{
  .subscribe-pic{
     padding: 80px 586px 0;
     margin-bottom: 0;
-    /* width: 150px;
-    height: 150px;
-    flex-shrink: 0;
-     */
+    
  }
  .newsletter{
     color: #070211;
@@ -419,45 +394,21 @@ body{
     padding-right: 212px;
     margin-top: 0;
  }
-  /* .Email{
-    width: 648px;
-    height: 72px;
-    flex-shrink: 0;
-    border-radius: 50px;
-    background: #FFF;
-    padding-bottom: 80px;
-     color: rgba(7, 2, 17, 0.30);
-text-align: center;
-font-family: Inter;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal; 
- }  */
+  
 .subscribe-email{
     display: flex;
-    /* width: 648px;
-    height: 72px; */
-    /* position: absolute; */
-    /* padding-right: 336px;
-    margin: 0; */
     padding-right: 336px;
     padding-left: 336px;
     padding-bottom: 80px;
-    margin-bottom: 80px;
     padding-top: 48px;
 }
 
 #email{
-    
 flex-shrink: 0;
-/* padding-bottom: 80px; */
 border-radius: 50px;
 background: #FFF;
 width: 648px; 
 height: 72px; 
-/* padding-left: 336px;
-padding-right: 336px; */
 }
 
 
@@ -467,13 +418,13 @@ padding-right: 336px; */
     width: 210px;
     height: 72px; 
     flex-shrink: 0;
-    /* padding-right: 336px;  */
     font-weight: 600;
+    position: relative;
+    left: -50px;   
  }
 
  div ::placeholder{
     color: rgba(7, 2, 17, 0.30);
-    /* text-align: center; */
     font-family: Inter;
     font-size: 18px;
     font-style: normal;
@@ -484,26 +435,9 @@ padding-right: 336px; */
  }
  
 
- 
-
- /* .Button{
-    width: 210px;
-    height: 72px;
-    flex-shrink: 0;
-    border-radius: 0px 50px 50px 0px;
-    background: #F00;
-    color: #FFF;
-    text-align: center;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    text-transform: capitalize;
-    padding-right: 336px;    
- } */
-
  /* footer section style */
+
+
  footer{
     width: 1600px;
     height: auto;
@@ -520,35 +454,59 @@ padding-right: 336px; */
    
  }
  .footer-text{
-    padding-left: 140px;
+    padding-left: 120px;
     padding-top: 120px;
     padding-right: 1085px;
- }
+    padding-bottom: 50px;
+ } 
  .footer-number{
     padding-right: 291px;
     padding-left: 1114px;
-    padding-top: 120px;
-  
-}
-.footer-website{
-    padding-bottom: 90px;
+    padding-top: 0px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; 
+    padding-bottom: 0px; 
+ } 
+ .footer-website{
     padding-right: 275px;
-    padding-left: 1114px;
-}
+    padding-left: 1114px; 
+    padding-top: 0px;
+    padding-bottom: 50px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; 
+       
+ }
 .footer-pic{
     padding-left: 50%;
+    padding-top: 48px;
+    padding-bottom: 48px;
 }
 .footer-parg{
     padding-left: 140px;
-}
-.footer-sub{
-    padding-right: 140px;
-    padding-left: 1315px;
-    padding-bottom: 120px;
+    padding-top: 50px;
     
 }
-.phone-icon{
+.footer-sub{
+    padding: 50px 140px 120px 1315px;  
+}
+.phone-icon1{
     width: 24px;
     height: 24px;
     flex-shrink: 0;
 }
+
+.phone-icon2{
+    width: 24px;
+    height: 24px;
+    padding-top: 0px;
+}
+
+
