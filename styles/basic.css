@@ -155,13 +155,12 @@ body{
  }
  /* nav section style */
  nav{
-    background-color: rgb(214, 179, 170);
     width: 1320px;
     height: 482px;
-    
     margin: 100px 120px 120px;
-   
     align-items: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
     
 
 
@@ -273,7 +272,7 @@ body{
     /* margin-right: 534px;
     margin-left: 603px; */ 
     border-radius: 364px;
-    padding: 35px;
+    padding: 50px;
     
     
     
@@ -371,13 +370,82 @@ body{
     display: table;
   }
 
- /* other section style */
+ /* subscribe section style */
+
+ .subscribe{
+    width: 1320px;
+    height: 616px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+ }
+
+ .subscribe-pic{
+    padding: 80px 586px 0;
+    margin-bottom: 0;
+    /* width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+     */
+ }
+ .newsletter{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 40px;
+    padding-left: 404px;
+    padding-right: 404px;
+    margin-bottom: 22px;
+ }
+ .newsletter-description{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+    padding-left: 212px;
+    padding-right: 212px;
+    margin-top: 0;
+ }
  .Email{
     width: 648px;
     height: 72px;
     flex-shrink: 0;
     border-radius: 50px;
     background: #FFF;
+    padding-bottom: 80px;
+    /* color: rgba(7, 2, 17, 0.30);
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal; */
+ }
+
+ /* .Button{
+    width: 210px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    padding-right: 336px; */
+    
  }
  /* footer section style */
  footer{
