@@ -1,8 +1,8 @@
 body{
-    /* background-color: #FFF; */
-}
+    background-color: #FFF;
+ }
 
-.banner{
+ .banner{
     position: relative;
     text-align: center;
     margin: 50px 140px 120px;
@@ -10,9 +10,14 @@ body{
     height: 600px;
     border-radius: 16px;
     background: #070211;  
-}
+ }
+ .banner-img{
+    opacity: .4;
+    /* background-color: #070211;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+ } 
 
-.banner-text{
+ .banner-text{
     font-family: 'Merriweather', serif;
     position: absolute;
     top: 177px;
@@ -23,7 +28,7 @@ body{
     text-align: center;
     font-size: 32px;
     font-weight: 400;   
-}
+ }
 
 .banner-title{
     font-family: 'Merriweather', serif;
