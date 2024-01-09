@@ -214,7 +214,10 @@ body{
     text-transform: uppercase;
  }
 
+
  /* offer section */
+
+
  .offer{
     display: flex;
     margin-left: 140px;
@@ -261,8 +264,8 @@ body{
     margin-top: 0;
  }
  .offer-pic{
-    width: 364px;
-    height: 364px;
+    /* width: 364px; 
+    height: 364px;  */
     /* flex-shrink: 0; */
     /* order-radius: 100%; */
     /* border-radius: 463px;  */
@@ -272,13 +275,12 @@ body{
     /* margin-right: 534px;
     margin-left: 603px; */ 
     border-radius: 364px;
-    padding: 50px;
-    
-    
-    
-    
-      
- }
+    padding: 40px;  
+    /* width: 463px;
+    height: 463px; */
+    /* flex-shrink: 0; */
+    /* border-radius: auto;     */
+ } 
 
  .offer-year{
     color: #F00;
@@ -307,9 +309,12 @@ body{
     flex-shrink: 0;
     margin-right: 276px;
     margin-left: 118px;
-
  }
+
+
  /* gifts section  */
+
+
  .gifts-greeting{
     
     margin-bottom: 16px;
@@ -429,7 +434,36 @@ font-style: normal;
 font-weight: 400;
 line-height: normal; */
  }
+.subscribe-email{
+    display: flex;
+    /* width: 648px;
+    height: 72px; */
+    /* position: absolute; */
+    /* padding-right: 336px;
+    margin: 0; */
+}
 
+#email{
+    
+flex-shrink: 0;
+/* padding-bottom: 80px; */
+border-radius: 50px;
+background: #FFF;
+/* width: 648px;
+height: 72px; */
+/* padding-left: 336px;
+padding-right: 336px; */
+
+}
+#sub-button{
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    /* width: 210px;
+    height: 72px; */
+    flex-shrink: 0;
+    /* padding-right: 336px; */
+    
+}
  /* .Button{
     width: 210px;
     height: 72px;
@@ -444,9 +478,9 @@ line-height: normal; */
     font-weight: 600;
     line-height: normal;
     text-transform: capitalize;
-    padding-right: 336px; */
-    
- }
+    padding-right: 336px;    
+ } */
+
  /* footer section style */
  footer{
     width: 1600px;
